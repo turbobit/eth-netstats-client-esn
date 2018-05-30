@@ -2,7 +2,9 @@ ESN Network Intelligence API
 ============
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-This is the backend service which runs along with ethereum and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [eth-netstats](https://github.com/cubedro/eth-netstats) to feed information. For full install instructions please read the [wiki](https://github.com/ethereum/wiki/wiki/Network-Status).
+## forked from https://github.com/OpenCommunityCoin/eth-netstats-client-api
+
+This is the backend service which runs along with ethereum and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [eth-netstats](https://github.com/turbobit/eth-netstats) to feed information. For full install instructions please read the [wiki](https://github.com/ethereum/wiki/wiki/Network-Status).
 
 Live Work : https://escstats.gonsmine.com
 
@@ -42,3 +44,8 @@ node app.js
 
 
 It will stop the current netstats client processes, automatically detect your ethereum implementation and version, update it to the latest develop build, update netstats client and reload the processes.
+
+[travis-image]: https://travis-ci.org/turbobit/eth-net-intelligence-api.svg
+[travis-url]: https://travis-ci.org/turbobit/eth-net-intelligence-api
+[dep-image]: https://david-dm.org/turbobit/eth-net-intelligence-api.svg
+[dep-url]: https://david-dm.org/turbobit/eth-net-intelligence-api
