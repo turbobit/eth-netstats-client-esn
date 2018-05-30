@@ -21,7 +21,7 @@ edit .env file
 ```
 DE_ENV=production
 RPC_HOST=localhost
-RPC_PORT=8545
+RPC_PORT=9545
 API_HOST=localhost
 API_PORT=8080
 API_URL=/api/stats
