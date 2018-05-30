@@ -42,9 +42,6 @@ node app.js
 ```
 
 
-
-It will stop the current netstats client processes, automatically detect your ethereum implementation and version, update it to the latest develop build, update netstats client and reload the processes.
-
 [travis-image]: https://travis-ci.org/turbobit/eth-net-intelligence-api.svg
 [travis-url]: https://travis-ci.org/turbobit/eth-net-intelligence-api
 [dep-image]: https://david-dm.org/turbobit/eth-net-intelligence-api.svg
